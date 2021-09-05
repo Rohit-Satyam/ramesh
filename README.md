@@ -10,7 +10,7 @@
 | H6pd          | 33.40748 | 2.9111   | 0.738076 | 2.5893   | 0.009617 | 0.022727 | H6pd          |
 
 
-```bash
+```python
 library(DESeq2)
 ## Raw counts
 dds <- estimateSizeFactors(dds.filtered)
