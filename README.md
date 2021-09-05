@@ -12,4 +12,10 @@
 
 ```r
 library(DESeq2)
+## Raw counts
+dds <- estimateSizeFactors(dds.filtered)
+
+## to view sizefactors
+sizeFactors(dds)
+
 ```
